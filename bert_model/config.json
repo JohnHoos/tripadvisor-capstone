@@ -1,0 +1,13 @@
+{
+    "BERT_3": {
+        "HIDDEN_1": 256,
+        "HIDDEN_2": 64,
+        "DROPOUT_RATE": 0.1
+    },
+    "LABEL_MAPPING": {
+        "0": "E",
+        "1": "F",
+        "2": "O",
+        "3": "T"
+    }
+}
