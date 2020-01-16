@@ -1,11 +1,12 @@
 # tripadvisor-capstone
 
-## Do NOT push raw data onto GitHub
-Multiclass topic classification on user reviews.
+Multiclass topic classification (factual/emotional/tips/others) on user reviews. This GitHub repo does not contain the dataset used for training and testing, but the fully trained BERT model is available.
 
 ### Data:
 - 100k of unlabeled userreviews
-- labeled data on 'facts' and 'tips'
+- labeled data on 'facts' and 'tips' (ubrelated to user reviews)
 
 ### Model:
-Bert
+- Bert (best at 77% test accuracy)
+- Conventional ML models (fully superpervised)
+- LDA / Guided LDA (unsupervised and semi-supervised)
